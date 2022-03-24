@@ -11,7 +11,13 @@ body {
   font-family: Roboto;
   background: linear-gradient(to bottom, #005aa7, #fffde4) no-repeat; /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
   background-size: auto;
-  height: 100vh;
+  min-height: 100vh;
+  min-height: fill-available;
+  min-height: -webkit-fill-available;
+}
+html {
+  height: fill-available;
+  height: -webkit-fill-available;
 }
 
 
