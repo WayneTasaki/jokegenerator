@@ -36,12 +36,20 @@ header {
 }
 
 #joke-box {
-  margin-top: 3rem;
-  width: 80%;
+  padding-top: 3rem;
+  width: 90%;
   text-align: center;
+  color: #fafafa;
+  font-size: 1.1rem;
+}
+#joke-setup {
+  margin-bottom: 1.5rem;
 }
 
 #button {
-  background-color: pink;
-  border: 2px solid white;
+  margin-top: 3rem;
+  background-color: #fafafa;
+  border-radius: 10px;
+  padding: 0.4rem 0.8rem;
+  cursor: pointer;
 }
