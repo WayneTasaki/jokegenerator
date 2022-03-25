@@ -9,9 +9,6 @@ async function getJoke() {
   let res = await fetch(url);
   let joke = await res.json();
 
-  console.log(joke)
-
-
   let jokeCategory = joke.category;
   let jokeType = joke.type;
   let jokeSetup = joke.setup;
